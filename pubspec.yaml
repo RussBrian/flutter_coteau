@@ -1,0 +1,32 @@
+name: flutter_application_6
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  http: ^0.13.3
+  url_launcher: ^6.0.0
+  weather: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/russel_martinez.jpg"
+  min_sdk_android: 16
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
